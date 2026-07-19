@@ -1,6 +1,6 @@
 import csv
 
-BONUS = 5
+BONUS = 10
 
 with open("students.csv", "r", newline="") as infile:
     reader = csv.DictReader(infile)
